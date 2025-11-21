@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etIdAparelho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID do aparelho"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do cliente"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etQuantidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantidade"
+            android:inputType="number"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Data (ex: 19/11/2025)"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnSalvarCompra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar / Salvar Compra"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnExcluirCompra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excluir Compra"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnVoltarFormCompra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voltar"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

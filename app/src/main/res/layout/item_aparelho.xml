@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#EEEEEE"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/tvModeloMarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modelo - Marca"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvPreco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preço: R$ 0,00"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvEstoque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estoque: 0"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>
